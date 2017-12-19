@@ -1,0 +1,84 @@
+.btn-prop {
+    background-color: #d07c44;
+    border-color: #d07c44;
+    color: #fff;
+}
+
+.btn-prop:hover, .btn-prop:focus, .btn-prop-focus, .btn-prop:active, .btn-prop.active {
+    background-color: #797c7a;
+    border-color: #797c7a;
+    color: #fff;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+h5 {
+    color: #797c7a;
+
+}
+
+.modal-content {
+    width: 770px;
+}
+
+
+.thumbnail .caption {
+	height: 30px;
+	padding: 2px;
+    border-top: 1px solid #ddd;
+}
+
+img {
+	cursor: pointer;
+    height: 150px;
+    width: auto;
+
+}
+
+.thumbnail {
+	padding: 0px;
+    border: none 0 #fff;
+}
+
+.h5, h5 {
+	margin-top: 1px;
+    padding: 10px;
+}
+
+.col-sm-4 {
+    padding-bottom: 5%;
+}
+
+
+
+@media (min-width: 768px){
+
+    .modal-dialog {
+
+        width: 770px;
+        margin: 30px auto;
+
+    }
+
+}
+
+.modal-content {
+
+    width: auto; 
+
+}
+.modal-body {
+
+    padding:15px 0px !important;
+}
+
+
+body {
+
+    padding-top: 5%;
+}
+
